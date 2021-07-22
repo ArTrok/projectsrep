@@ -1,0 +1,35 @@
+<style>
+
+
+
+.currentbody {
+  background-color:seagreen;
+}
+
+body {
+  font-size: 16px;
+}
+p {
+  font-weight: 600;
+  font-size: 3em;
+}
+
+#amarelo {
+  background-color: yellow;
+  font-style: bold;
+}
+#vermelho {
+  background-color: red;
+  line-height: 30px;
+}
+#marrom {
+  background-color: brown;
+  text-align: center;
+  text-decoration: none;
+}
+h1{
+    color:aquamarine;
+    font-family: verdana;
+  }
+
+</style>
