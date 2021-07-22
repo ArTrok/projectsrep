@@ -1,0 +1,2 @@
+Cliente (IP) >>HTTP>>  dominio (DNS, IP, URL) >>HTTP>> Servidor (IP)
+    TCP/IP >>>>>>>>>>>>>> TCP/IP >>>>>>>>>>>>>>> TCP/IP 
