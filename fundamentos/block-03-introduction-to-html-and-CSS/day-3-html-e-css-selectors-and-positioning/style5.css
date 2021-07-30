@@ -1,0 +1,50 @@
+ol li {
+    background-color: lightyellow;
+}
+ol li:nth-of-type(odd){
+    text-transform:capitalize
+}
+ol li:nth-of-type(even){
+    color: green;
+}
+h1,h2,h3{
+    color: red
+}
+h1 em, h3 em{
+    font-size: 40px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+li{
+    font-size: 20px;
+}
+li em{
+    font-weight: bold;
+}
+.podium {
+    color: darkcyan;
+}
+.java{
+    background-color: lightpink;
+}
+a.stack:hover{
+    font-weight: bold;
+    color: orange;
+}
+a.green:hover{
+    font-weight: bold;
+    color: green;
+}
+a.mdn:hover{
+    font-weight: bold;
+    color: black;
+}
+a.dev:hover{
+    font-weight: bold;
+    color: yellow;
+}
+a.green:hover{
+    font-weight: bold;
+    color: green;
+}
