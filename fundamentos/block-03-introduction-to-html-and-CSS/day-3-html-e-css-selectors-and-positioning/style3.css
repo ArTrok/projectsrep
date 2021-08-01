@@ -1,0 +1,14 @@
+p, h1 {
+    text-align: center;
+}
+ol li:hover{
+    background-color: blue;
+    transition: 1s;
+}
+ol li:active{
+    font-family: monospace;
+    transition: 1s;
+}
+ol, ul{
+    list-style: none;
+}
