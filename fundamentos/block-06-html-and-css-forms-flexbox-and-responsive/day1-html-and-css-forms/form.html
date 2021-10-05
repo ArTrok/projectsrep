@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+    <header>Curriculum Vitae</header>
+    <main>
+      <form action="" method="GET" class="main-style">
+        <fieldset>
+          <div>
+            <label for="name">
+              Name:
+            </label>
+            <input name="name" id="name" type="text" maxlength="40" required>
+          </div>
+          <div>
+            <label for="e-mail">
+              E-mail:
+            </label> 
+            <input name="e-mail" id="e-mail" type="email" maxlength="50" required>
+          </div>
+          <div>
+            <label for="cpf">
+              CPF:
+            </label> 
+            <input type="text" name="cpf" id="cpf" maxlength="11" required>        
+          </div>
+
+            <label for="address">
+              Adress:
+            </label> 
+              <input type="text" name="address" id="address" maxlength="200" required>
+            <label for="city">
+              City:
+            </label> 
+              <input type="text" name="city" id="city" maxlength="28" required>
+            <label for="states">
+              State:
+            </label> 
+              <select id="states">
+              </select>
+            <label for="type">
+              Type:
+            </label> 
+              <input type="radio" name="type" id="type" required>
+        </fieldset>
+        <fieldset>
+            <label for="resume">
+              Resumé:
+            </label>
+            <textarea name="resume" id="resume"></textarea>
+            <label for="position">
+              Position: 
+            </label>
+              <input type="text" name="position" id="position" maxlength="40" required>
+            <label for="description">
+              Position description:
+            </label>
+              <input type="text" name="description" id="description" maxlength="500" required>
+            <label for="date">
+              Start date: 
+            </label>
+              <input type="date" name="date" id="date" required>
+        </fieldset>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+      </form>
+    </main>   
+  </body>
+</html>
